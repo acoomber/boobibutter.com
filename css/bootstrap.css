@@ -63,6 +63,12 @@ h1 {
   margin: .67em 0;
   font-size: 2em;
 }
+
+h3{
+  border: 10px;
+
+background-color:white;
+}
 mark {
   color: #000;
   background: #ff0;

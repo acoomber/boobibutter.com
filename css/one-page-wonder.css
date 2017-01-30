@@ -5,9 +5,13 @@
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-/*//semi grey/blue */
+
   background-color: rgb(192, 197, 202);
+}
+.headerLogo{
+position: relative;
+display: block;
+
 }
 
 .header-image {
@@ -30,14 +34,13 @@ body {
 
 .headline h1 {
     font-size: 130px;
-    /*background: #fff;
-    background: rgba(255,255,255,0.9);*/
+
+
 }
 
 .headline h2 {
     font-size: 77px;
-    /*background: #fff;
-    background: rgba(255,255,255,0.9);*/
+
 }
 
 .headline h3 {
@@ -197,6 +200,48 @@ footer {
     }
 }
 
+/*Flex box shit*/
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.flex-container{
+display: flex;
+
+}
+
+.box{
+margin: 5px;
+text-align: center;
+line-height: 50px;
+font-weight: 600;
+
+
+}
+
+/*these are our block level elements*/
+.one{
+margin-left: 50px;
+max-width: 50px;
+
+}
+
+.two{
+padding-left: 200px;
+}
+
+
+/**/
+
+
+
+
+
+
+
 
 #orangeBoob{
   padding-left: 220px;
@@ -277,12 +322,4 @@ footer {
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 
-}
-
-
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
 }
